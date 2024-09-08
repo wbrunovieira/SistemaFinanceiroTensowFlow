@@ -9,7 +9,7 @@ import { SMA, RSI, stochastic, seasonality, EMA } from "./technicalindicators";
 import stockMarketDataDaily from "./stockMarketDataDaily.json";
 import stockMarketDataHourly from "./stockMarketDataHourly.json";
 
-// Constantes
+
 const Main = () => {
   const [data, setData] = useState([]);
   const [series, setSeries] = useState([]);
